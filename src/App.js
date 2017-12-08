@@ -9,6 +9,7 @@ class App extends Component {
         <Nav />
         <header className="App-header">
         <h1> Resource Matching </h1>
+        <h2> Moved to Civiv Tech Organization </h2>
         </header>
       </div>
     );
