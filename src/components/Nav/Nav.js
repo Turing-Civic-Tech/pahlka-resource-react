@@ -12,6 +12,7 @@ const Nav = () => {
         <img src={toiletPaper} alt='resources' className='menu-icon' />
         <Search />
         <img src={menu} alt='menu' className='menu-icon' />
+        <button>Log In</button>
       </ul>
     </div>
     )
