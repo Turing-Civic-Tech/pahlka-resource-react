@@ -1,4 +1,7 @@
 import React from 'react'
+import Search from '../Search/Search.js'
+import toiletPaper from '../../assets/toilet-paper.svg';
+import menu from '../../assets/menu-button.svg';
 import './Nav.css'
 
 const Nav = () => {
@@ -6,13 +9,12 @@ const Nav = () => {
   return (
     <div className="nav-bar">
       <ul className='nav-links'>
-        <li>Home</li>
-        <li>Volunteer</li>
-        <li>Submit</li>
-        <li>Request</li>
+        <img src={toiletPaper} alt='resources' className='menu-icon' />
+        <Search />
+        <img src={menu} alt='menu' className='menu-icon' />
       </ul>
     </div>
     )
 }
 
-export default Nav
+export default Nav;
