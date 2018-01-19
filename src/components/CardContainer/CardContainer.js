@@ -7,16 +7,16 @@ class CardContainer extends Component {
     super();
     this.state = {
 
-    }
+    };
   }
 
   render() {
     return (
       <div id='card-container'>
-      <Card />
+        <Card />
       </div>
     )
   }
-}
+};
 
 export default CardContainer;
