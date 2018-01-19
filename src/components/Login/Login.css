@@ -1,0 +1,19 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-bottom: 200px; }
+
+.login-inputs {
+  min-width: 230px;
+  width: 71%;
+  max-width: 500px;
+  height: 30px;
+  margin: 10px 0 25px 0; }
+
+.login-labels {
+  font-size: 35px; }
