@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Nav from './Nav';
+import Nav from '../Nav/Nav.js';
+import Card from '../Card/Card.js'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <h1> Resource Matching </h1>
         <h2> Moved to Civiv Tech Organization </h2>
         </header>
+        <Card />
       </div>
     );
   }
