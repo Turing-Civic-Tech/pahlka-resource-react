@@ -1,0 +1,7 @@
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 50px; }
